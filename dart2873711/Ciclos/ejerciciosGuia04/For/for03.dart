@@ -8,10 +8,10 @@ void main() {
   */
 
   //DEFINICIÓN 
-  double num, numNegativo=0, numPositivo=0, numNeutro=0;
+  double num, numNegativo=0, numPositivo=0, numNeutro=0, cantNumeros=20;
 
   //PROCESOS
-  for(int i=0; i<20; i++) {
+  for(int i=0; i<cantNumeros; i++) {
     print("Escriba cualquier número");
     print("NUM " +(i+1).toString());
     num = double.parse(stdin.readLineSync()!);
