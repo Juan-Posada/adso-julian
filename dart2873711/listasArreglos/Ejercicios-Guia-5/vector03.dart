@@ -6,9 +6,6 @@ void main() {
   */
 
   //DEFINICIÓN
-  List<double> numeros = [];
-  double cantCeros, cantPositivos, cantNegativos, sumaCeros, sumaPositivos, sumaNegativos;
-  int cantNumeros = 15;
 
   //PROCESOS
   

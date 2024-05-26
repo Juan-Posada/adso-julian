@@ -17,6 +17,4 @@ void main() {
   estado = true;
   print("Su nombre es: $nombre");
   print("Su edad es $edad y su altura es $altura metros");
-
-
 }
