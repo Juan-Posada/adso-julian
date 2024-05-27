@@ -16,5 +16,5 @@ void main () {
   } while (numeroIni != 0);
 
   //SALIDA
-  print("$suma");
+  print("El resultado es: $suma");
 }

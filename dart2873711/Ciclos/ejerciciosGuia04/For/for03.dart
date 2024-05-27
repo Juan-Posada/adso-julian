@@ -4,7 +4,8 @@ void main() {
   //Juan Posada - For 03 
   
   /*
-  Leer 20 números e imprimir cuantos son positivos, cuantos negativos y cuantos cero
+  Leer 20 números e imprimir cuantos son positivos, 
+  cuantos negativos y cuantos cero
   */
 
   //DEFINICIÓN 

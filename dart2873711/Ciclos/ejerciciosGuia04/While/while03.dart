@@ -3,7 +3,8 @@ import 'dart:io';
 void main() {
   //Juan Posada - While 03
   /*
-  Determinar cuantos hombres y cuantas mujeres se encuentran en un grupo de n personas,
+  Determinar cuantos hombres y cuantas mujeres se 
+  encuentran en un grupo de n personas,
   suponiendo que los datos son extraídos alumno por alumno.
   */
 
@@ -20,11 +21,11 @@ void main() {
     genero = stdin.readLineSync();
     contador++;
 
-    if (genero == "H".toUpperCase()) {
+    if (genero!.toUpperCase() == "H") {
       hombres++;
     }
 
-    else if (genero == "M".toUpperCase()) {
+    else if (genero.toUpperCase() == "M") {
       mujeres++;
     }
 
