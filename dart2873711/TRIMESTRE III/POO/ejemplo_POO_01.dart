@@ -39,7 +39,7 @@ void main() {
 
   print("*" * 50);
 
-  Perro perro2 = Perro("Luna", "pastor collie", 35);
+  Perro perro2 = Perro("Luna", "Pastor collie", 35);
   perro2.correr();
   perro2.ladrar();
   perro2.dormir();
